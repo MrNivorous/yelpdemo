@@ -15,6 +15,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'pg', group: :production
+gem 'carrierwave'
+gem "fog-aws"
+gem "figaro"
 
 
 group :development, :test do
